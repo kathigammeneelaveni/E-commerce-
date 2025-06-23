@@ -1,0 +1,110 @@
+/* src/styles/custom.css */
+
+/* Navbar background color */
+.navbar {
+    background-color: #1c1c1c; /* Dark gray */
+}
+
+/* Navbar links - hover effect */
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8a100; /* Golden yellow */
+}
+
+/* Card styling - for shop products */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #f8a100;
+    border-color: #f8a100;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+}
+
+.btn-danger {
+    background-color: #ff5c5c;
+    border-color: #ff5c5c;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #e04e4e;
+    border-color: #e04e4e;
+}
+
+/* Home page section styles */
+.home-section {
+    background-color: #f8f9fa; /* Light gray */
+    padding: 60px 0;
+}
+
+.home-section h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.home-section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Shop page grid */
+.row .col-md-4 {
+    margin-bottom: 30px;
+}
+
+/* Cart page */
+.cart-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.cart-item .item-details {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.cart-item .item-details h5 {
+    color: #333;
+}
+
+.cart-item .item-details p {
+    color: #555;
+}
+
+.cart-total {
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
